@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="our facilities.html">Facilities</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    <meta charset="UTF-8">
+    <title>Nursery Facilities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #fceabb, #f8b500);
+        }
+
+        header{
+            text-align:center;
+            padding:40px 20px;
+            background:white;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1{
+            font-size:40px;
+            color:#ff6b6b;
+        }
+
+        header p{
+            font-size:18px;
+            color:#555;
+            margin-top:10px;
+        }
+
+        .container{
+            width:90%;
+            margin:50px auto;
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+            transition:0.4s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+        }
+
+        .card-content h2{
+            color:#ff6b6b;
+            margin-bottom:10px;
+        }
+
+        .card-content p{
+            color:#555;
+            line-height:1.6;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:white;
+            margin-top:40px;
+            font-weight:bold;
+        }
+
+        @media(max-width:600px){
+            header h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Nursery Facilities</h1>
+    <p>Providing a safe, fun and inspiring environment for every child.</p>
+</header>
+
+<div class="container">
+
+    <!-- Books Library -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Books Library">
+        <div class="card-content">
+            <h2>Books Library</h2>
+            <p>
+                Our nursery library is filled with colorful storybooks, picture books,
+                and educational materials designed to spark imagination and develop
+                early reading skills. Children enjoy storytelling sessions and quiet
+                reading time in a cozy and welcoming environment.
+            </p>
+        </div>
+    </div>
+
+    <!-- Classrooms -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" alt="Classroom">
+        <div class="card-content">
+            <h2>Modern Classrooms</h2>
+            <p>
+                Our classrooms are bright, spacious, and child-friendly.
+                Equipped with creative learning tools, interactive boards,
+                and safe furniture, we ensure that every child learns in
+                a comfortable and stimulating atmosphere.
+            </p>
+        </div>
+    </div>
+
+    <!-- Music Library -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Music Room">
+        <div class="card-content">
+            <h2>Music Library</h2>
+            <p>
+                The music room introduces children to rhythm, sound, and creativity.
+                With instruments like keyboards, drums, and tambourines,
+                children develop confidence and coordination while having fun.
+            </p>
+        </div>
+    </div>
+
+    <!-- Sports Ground -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf" alt="Sports Ground">
+        <div class="card-content">
+            <h2>Sports Ground</h2>
+            <p>
+                Our safe and spacious playground encourages physical activity
+                and teamwork. With slides, swings, and open play areas,
+                children improve motor skills while enjoying outdoor fun.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Happy Kids Nursery | All Rights Reserved
+</footer>
+
+</body>
+</html>
